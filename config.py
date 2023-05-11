@@ -1,0 +1,5 @@
+DLIB_FACE_RECOGNITION_DAT = 'D:/face-recognizer/data/dlib_face_recognition_resnet_model_v1.dat'
+SHAP_PREDICTOR_DAT = 'D:/face-recognizer/data/shape_predictor_68_face_landmarks.dat'
+CSV = 'D:/face-recognizer/data/my.csv'
+FACES_DIR = 'D:/face-recognizer/face'
+TMP_DIR = 'D:/face-recognizer/tmp'

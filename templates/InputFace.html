@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<form method="post" action="http://127.0.0.1:3004/faceRecognizer/extractEigenvalue" enctype="multipart/form-data">
+    <label>label: <input name='identity' type="text"></label>
+    <label> pics: <input name='pics' type="file" multiple></label>
+    <input type="submit" value="提交">
+</form>
+
+<div><a href="/test_face">识别人脸</a></div>
+</body>
+
+</html>
